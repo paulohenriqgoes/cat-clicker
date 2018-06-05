@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  background-color: #FFF;
+  color: #000;
+}
+
+nav {
+  background-color: fuchsia;
+  border: 1px solid #c228c3;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #FFF;
+}
+
+.container {
+  margin: auto;
+}
+
+.cat-card {
+  width: 350px;
+  height: 400px;
+  background-image: url(./images/cat.jpg);
+  background-position: center 1px;
+  box-shadow: -1px 2px 7px 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.cat-card > .card-content {
+  background-color: #FFF;
+  align-self: flex-end;
+  padding: 15px;
+  /* color: #eeee; */
+}
+
+.card-content > .card-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: .0125em;
+}
+
+.card-content p {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.25rem;
+  font-weight: lighter;
+  text-decoration: inherit;
+  text-transform: inherit;
+  color: #7e7e7e;
+  font-size: 14px;
+}
+
+.card-content > .card-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+button {
+  border-radius: 50%;
+  padding: 9px;
+  line-height: 1.25rem;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  transition: 0.6s ease-in-out;
+  background-color: #e5e5e5;
+  border: 1px solid #eee;
+}
+
+button:hover > img {
+  transition: opacity .7s ease-in-out;
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.icon-heart {
+  display: block;
+  width: 18px;
+}
+
+.freepik {
+  align-self: flex-end;
+  font-size: small;
+  color: #ddd;
+  padding: 15px;
+}
+
+.clicks {
+  display: block;
+  align-self: center;
+  color: #e04761;
+  font-weight: 600;
+}
