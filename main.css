@@ -45,7 +45,7 @@ nav {
   overflow: hidden;
   position: relative;
   display: flex;
-  margin-right: 15px;
+  margin: 7.5px;
 }
 
 .cat-card:last-child {
@@ -56,6 +56,7 @@ nav {
   background-color: #FFF;
   align-self: flex-end;
   padding: 15px;
+  border-top: 1px solid #e6e6e6;
 }
 
 .card-content > .card-title {
